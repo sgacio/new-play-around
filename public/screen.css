@@ -9,4 +9,109 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(150, 19, 150);
 }
+
+.hello-world {
+  color: rgb(150, 19, 150);
+  font-family: cursive;
+  font-size: 7rem;
+  text-align: center;
+  border: 2rem dotted rgb(175, 175, 3);
+  background-color: rgb(151, 233, 27);
+  padding-bottom: 1.5rem;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0%;
+}
+
+.rugrats-subtittle {
+  color: rgb(150, 19, 150);
+  font-family: cursive;
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgb(151, 233, 27);
+  margin: 1%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello-world .rugrats-subtittle {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.hello-world{
+  width: 100%;
+}
+.hello-world span{
+  width: 100%;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+}
+
+header {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 4rem;
+  background-color: rgb(151, 233, 27);
+  border: 1rem dotted rgb(175, 175, 3);
+}
+
+p {
+  color: rosybrown;
+  background: rgb(3, 2, 2); 
+}
+
+ul li {
+  text-align: center;
+  list-style: none;
+  font-size: 6rem;
+}
+
+.poop {
+  text-align: center;
+  font-size: 5rem;
+}
+
+#older-kids {
+  font-size: 1.25rem;
+  color: rosybrown;
+}
+
+#clone {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#gif {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#rugrats {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 4rem;
+  background-color: rgb(151, 233, 27);
+  border: 1rem dotted rgb(175, 175, 3);
+  color: rgb(150, 19, 150);
+}
+
+#pain {
+  text-align: center;
+  font-size: 10rem; 
+}
+
